@@ -3,7 +3,7 @@ import NavigationItem from './NavigationItem';
 
 const Navigation = () => {
   return (
-    <nav className={style.navigation}>
+    <nav className={style.navigation} >
       <ul>
         <li className="listItem"><img src="white-origami-bird.png" alt="white origami"></img></li>
         <NavigationItem>Going to 1</NavigationItem>
