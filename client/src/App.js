@@ -1,6 +1,9 @@
 import Navigation from './components/Navigation';
 import Aside from './components/Aside';
 import style from './App.module.css';
+import Main from './components/Main';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -8,7 +11,10 @@ function App() {
       <Navigation />
       <div className={style.container}> 
         <Aside />
+        <Main />
+        
       </div>
+      <Footer />
     </div>
   );
 }

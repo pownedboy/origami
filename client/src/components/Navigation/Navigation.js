@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <nav className={style.navigation} >
       <ul>
-        <li className="listItem"><img src="white-origami-bird.png" alt="white origami"></img></li>
+        <NavigationItem src="white-origami-bird.png" alt="white origami"/>
         <NavigationItem>Going to 1</NavigationItem>
         <NavigationItem>Going to 2</NavigationItem>
         <NavigationItem>Going to 3</NavigationItem>
