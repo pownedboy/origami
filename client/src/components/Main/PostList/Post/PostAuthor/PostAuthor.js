@@ -1,9 +1,9 @@
-const PostAuthor = () => {
+const PostAuthor = (props) => {
   return (
     <div>
         <span>
           <small>Author:</small>
-          Some Anonymous
+          {props.author}
         </span>
       </div>
   );
