@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+.asideItemSelected {
+    background-color: lightblue;
+}
+
 .asideItem a {
     color: #234465;
     text-align: center;
